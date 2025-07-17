@@ -22,7 +22,7 @@ const BarDiagram = () => {
         return () => clearInterval(intervalId);
     }, [currentHeight]);
     return (
-        <div className="flex items-center justify-center h-screen " >
+        <div >
             <svg width={"200"} height={"200"} className="border border-dotted border-amber-500">
                 {
                     dataPoints.map((dataPoint, index) => (
